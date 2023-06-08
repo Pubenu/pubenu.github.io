@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<noscript>You need JavaScript enable to run this website properly.</noscript>
+	<title>PNG to JPEG Converter | Pubenu</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" href="../assets/shortlogo.png">
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="upperbanner">
+			<img src="../assets/logo.png" width="200" draggable="false" class="unselectable">
+			<p id="slogan" class="unselectable">Explore. Play. Use.</p>
+			<p id="navigator" class="unselectable">
+				<a href="../index.html">Home</a>
+				<a href="index.html">Explore</a>
+				<a href="index.html">About</a>
+				<a href="https://pages.github.com" target="_blank" class="normalSpacing">Powered by Github</a>
+			</p>
+			</p>
+		</div>
+		<div id="lowerbanner">
+			<button class="explorer" style="text-align: center">
+				<a href="#" class="dropbtn">Explore Games . . .</a>
+				<div class="dropdown-content">
+					<a href="#">Endless Games</a>
+					<a href="#">Logic Games</a>
+					<a href="#">Search a game . . .</a>
+				</div>
+			</button>
+			<button class="explorer" style="text-align: center">
+				<a href="#" class="dropbtn">Explore File Converters . . .</a>
+				<div class="dropdown-content">
+					<a href="index.html">PNG to JPEG</a>
+					<a href="#">JPEG to GIF</a>
+					<a href="#">PNG to GIF</a>
+					<a href="#">GIF to PNG</a>
+					<a href="#">Search a file converter . . .</a>
+				</div>
+			</button>
+		</div>
+	</header>
+	<!--Distinct content-->
+	<h1 id="inftitle">Welcome to the PNG/JPEG file converter.</h1>
+	<p id="inftext">Here is how to use the converter:</p>
+	<ol style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	margin-bottom: 4em;
+  ">
+		<li style="margin: 0.25rem 0">Select the PNG file you want to convert.</li>
+		<li style="margin: 0.25rem 0">Press the Convert Now button.</li>
+		<li style="margin: 0.25rem 0">Wait until the file is finished converting.</li>
+		<li style="margin: 0.25rem 0">Press Download Now.</li>
+		<li style="margin: 0.25rem 0">Enjoy your JPEG/JPG file!</li>
+	</ol>
+
+	<!--Converter Div-->
+	<div id="converter">
+		<label for="fileInput">Please select a PNG file from your computer:</label>
+		<input type="file" id="fileInput">
+	</div>
+
+
+</body>
+<script src="../modules.js"></script>
+<script src="index.js"></script>
+
+</html>
